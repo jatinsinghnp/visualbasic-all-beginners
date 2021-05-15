@@ -1,0 +1,183 @@
+
+'basic part one 1
+
+'Module Module1
+
+'    Sub Main()
+'        Dim sum, num, num2 As Integer
+
+'        Console.WriteLine("enter the first number")
+'        num = Console.ReadLine()
+'        Console.WriteLine("enter the second number")
+'        num2 = Console.ReadLine
+
+'        Console.WriteLine("press enter to continue")
+'        sum = num + num2
+'        Console.WriteLine("the sum of the enter number is " & Str(sum))
+
+
+
+'        Console.ReadKey()
+
+'    End Sub
+
+'End Module
+
+
+'basic second condtitoal flow 
+
+
+
+
+'Module Module1
+'    Sub main()
+'        Dim age As Int32
+
+'        Console.WriteLine("enter the age to continue ...")
+'        age = Console.ReadLine()
+
+'        If age > 16 Then
+'            Console.WriteLine("u can drive ")
+'        Else
+
+'            Console.WriteLine("you cannot drive ")
+
+'        End If
+
+'        Console.ReadKey()
+
+'    End Sub
+'End Module
+
+'select statement
+
+'Module Module1
+'    Sub main()
+'        Dim data As Int32
+
+
+
+
+
+'        Console.WriteLine("enter the day")
+'        data = Console.ReadLine
+'        Select Case data
+'            Case 1
+'                Console.WriteLine("sunday")
+'            Case 2
+'                Console.WriteLine("monday")
+'            Case 3
+'                Console.WriteLine("tuesday")
+'            Case 4
+'                Console.WriteLine("wednesday")
+'            Case 5
+'                Console.WriteLine("thursday")
+'            Case 6
+'                Console.WriteLine("friday")
+'            Case 7
+'                Console.WriteLine("saturday")
+
+'            Case Else
+'                Console.WriteLine("in valid input")
+
+
+'        End Select
+
+
+
+
+
+
+
+'        Console.ReadKey()
+
+'    End Sub
+'End Module
+
+
+'for loop
+
+'Module Module1
+'    Sub main()
+'        Console.Clear()
+
+'        Dim num As Int32
+'        Console.WriteLine("enter the number for print multiplication tabe ")
+'        num = Console.ReadLine()
+
+'        For i = 1 To 10
+'            Console.WriteLine(num & "*" & i & "=" & num * i)
+
+'        Next i
+
+'        Console.ReadKey()
+
+'    End Sub
+
+'End Module
+
+
+'do loop
+
+
+
+'Module Module1
+'    Sub main()
+'        Console.Clear()
+'        Dim i As Integer
+'        Do
+'            Console.WriteLine(i)
+'            i = i + 1
+
+'        Loop While i <= 10
+
+
+
+
+
+'        Console.ReadLine()
+
+'    End Sub
+
+'End Module
+
+
+'Module Module1
+'    Sub main()
+'        Console.Clear()
+
+'        Dim i As Integer
+'        While i <= 10
+
+'            Console.WriteLine(i)
+'            i = i + 1
+'        End While
+
+
+'function
+
+'Module Module1
+
+'    Sub cal(a As Integer, b As Integer)
+'        Dim sum As Integer
+'        sum = a + b
+'        Console.WriteLine("the sum of the number is "& sum)
+
+'    End Sub
+'    Sub main()
+
+
+'        Console.Clear()
+
+'        cal(100, 300)
+'        cal(400, 300)
+'        cal(899899, 300)
+
+
+'        Console.ReadKey()
+
+
+'    End Sub
+
+'End Module
+
